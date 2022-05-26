@@ -16,7 +16,7 @@
           <a class="nav-link {{ Request::url() == url('/gallery') ? 'active' : ' ' }}" href="/gallery">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ Request::url() == url('/contacts') ? 'active' : ' ' }}" href="/contacts">Contact Us</a>
+          <a class="nav-link {{ Request::url() == url('/contacts') ? 'active' : ' ' }}" href="{{ route('contacts.create')}}">Contact Us</a>
         </li>
       </ul>
       <ul class="navbar-nav ms-auto">

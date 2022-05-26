@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="animsition">
+<body >
     <div class="page-wrapper">
         <!-- HEADER MOBILE-->
         @include('partials/header-mobile')
